@@ -53,11 +53,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
 
-
-    public void getTen(){
-
-    }
-
     @Override
     public int getItemCount() {
         return listEnglish.size();

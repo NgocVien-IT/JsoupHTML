@@ -62,8 +62,9 @@ public class EnglishAdapter extends BaseAdapter {
         }else{
             viewHolder = (ViewHolder) view.getTag();
         }
+
         English english = mlistEnglish.get(i);
-        Picasso.with(mContext).load(english.getmUrlImage()).fit().centerInside().into(viewHolder.imageViewItem);
+        Picasso.with(mContext).load(english.getmUrlImage()).error(R.drawable.ic_error).fit().centerInside().into(viewHolder.imageViewItem);
 
         viewHolder.textViewItem.setText(english.getmName());
         return view;

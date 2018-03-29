@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">JsoupHTML</string>
+    <string name="app_name">EnglishApp</string>
     <string name="topic">Contact</string>
     <string name="danhmuc">Danh mục</string>
-
 </resources>

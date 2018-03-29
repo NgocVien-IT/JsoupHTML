@@ -7,6 +7,7 @@ import java.io.Serializable;
  */
 
 public class English implements Serializable {
+    private String mId;
     private String mName;
     private String mUrlImage;
     private String mUrlNextPage;
@@ -23,6 +24,21 @@ public class English implements Serializable {
         this.mName = mName;
         this.mUrlImage = mUrlImage;
         this.mUrlNextPage = mUrlNextPage;
+    }
+
+    public English(String mId, String mName, String mUrlImage, String mUrlNextPage) {
+        this.mId = mId;
+        this.mName = mName;
+        this.mUrlImage = mUrlImage;
+        this.mUrlNextPage = mUrlNextPage;
+    }
+
+    public String getmId() {
+        return mId;
+    }
+
+    public void setmId(String mId) {
+        this.mId = mId;
     }
 
     public String getmName() {

@@ -49,9 +49,7 @@ public class DetalisEnglish extends AppCompatActivity implements RecyclerViewAda
             } else {
                 Log.e(TAG, "Loi list" + englishDetails.size());
             }
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
+        } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
     }
